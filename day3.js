@@ -33,7 +33,6 @@
 //     console.log ("you'r chilodren noob")
 // }
 
-
 // var isFound = true
 
 // if (isFound) {
@@ -42,20 +41,15 @@
 // }
 // console.log("vetiyana hai")
 
+var name = "oscar";
 
-var name ="oscar"
-
-if (name!=="oscar") {
-    // console.log ( "name is not oscar")
+if (name !== "oscar") {
+  // console.log ( "name is not oscar")
 }
 
-
-
-
-
-var name ="osar"
-if (name!=="oscar"){
-    console.log("name is not oscar")
-    return
+var name = "osar";
+if (name !== "oscar") {
+  console.log("name is not oscar");
+  return;
 }
-console.log("name is oscar")
+console.log("name is oscar");
